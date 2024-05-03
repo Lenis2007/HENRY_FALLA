@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biografia</title>
+    <link rel="stylesheet" href="/css/estilos.css">
+</head>
+<body>
+    <div class="contenido">
+        <nav>
+            <ul>
+                <li><a href="/index.html">Inicio</a>
+                    <ul>
+                        <li><a href="/pags/Saavedra_1.0.html"> Saavedra </a></li>
+                    </ul>
+                </li>
+                <li><a href="/pags/Familia_L.html">Familia</a>
+                    <ul>
+                        <li><a href="/pags/Familia_S.html"> Saavedra </a></li>
+                    </ul>
+                </li>
+                <li><a href="/pags/Hobbies_L.html">Hobbies</a>
+                    <ul>
+                        <li><a href="/pags/Hobbies_S.html"> Saavedra </a></li>
+                    </ul>
+                </li>
+                <li><a href="/pags/Formulario.html">Formulario</a></li>
+                <li><a href="/pags/Tabla.html">Tabla</a>
+            </ul>
+        </nav> 
+        <br><br><br><br><br>
+        <div class="div-1">
+            <p> FORMULARIO </p>
+        </div>
+        <br>
+        <section>
+            <div class="user-box">
+            <!--Nombre-->
+            <label for="nombre"> Nombre completo: </label>
+            <input type="text" name="nombre" id="nombre" placeholder="Pepita Perez" /> <br>
+            <!--Edad-->
+            <label for="edad"> ¿Cuántos años tienes?: </label>
+            <input type="number" name="edad" id="edad" placeholder="16" /> <br>
+            <!--Género-->
+            <div class="radio-container">
+            <label for="genero"> Selecciona tu género: </label><br>
+            <div class="radio-option">
+            <input type="radio" name="femenino" value="femenino" id="femenino">
+            <label for="femenino">Femenino </label>
+            </div>
+            <div class="radio-option">
+            <input type="radio" name="masculino" value="masculino" id="masculino">
+            <label for="masculino">Masculino </label> <br>
+            </div>
+            </div>
+            <!--Alimentación-->
+            <div class="checkbox-container">
+            <label for="alimento"> ¿Tienes alguna preferencia alimentaria? </label> <br>
+            <div class="checkbox-option">
+            <input type="checkbox" name="vegano" id="vegano" />
+            <label for="vegano">Vegano </label> <br>
+            </div>
+            <div class="checkbox-option">
+            <input type="checkbox" name="gluten" id="gluten" />
+            <label for="gluten">Gluten </label> <br>
+            </div>
+            </div>
+           
+            <!--Celular-->
+            <label for="telefono"> Número de Celular: </label>
+            <input type="tel" name="telefono" id="telefono" placeholder="333 3333" > <br>
+            <!--Correo-->
+            <label for="correo"> Correo eléctronico: </label>
+            <input type="email" name="correo" id="correo" placeholder="pepitapereza@gmail.com" > <br>
+            <!--Nacimiento-->
+            <label for="nacimiento"> Fecha de Nacimiento: </label>
+            <input type="date" name="nacimiento" id="nacimiento" > <br>
+            <!--Nosotros-->
+            <div class="content-select">
+            <label for="nosotros"> ¿Cómo te enteraste de nosotros?: </label> <br> <br>
+            <select name="nosotros" id="nosotros"> 
+                <option value="Redes"> Redes Sociales </option>
+                <option value="Amigo"> Amigos </option>
+                <option value="Familiar"> Familiar </option>
+            </select><br><br><br>
+            </div>
+            <!--Satisfacción-->
+            <label for="satisfaccion"> En una escala del 1 al 10, ¿qué tan satisfecho estás con nuestro servicio?</label>
+            <input type="number" name="satisfaccion" id="satisfaccion" placeholder="10"> <br>
+            <!--Comentarios-->
+            <label for="sugerencia"> ¿Tienes algún comentario o sugerencia? </label>
+            <input type="textarea" name="sugerencia" id="sugerencia"><br><br>
+            </div>
+            <!--Enviar-->
+            <button>Enviar</button>
+        </section>
+        <br>
+        <footer> Todos los derechos reservados. Página realizada por Lenis Alfonso y Juan Saavedra </footer>
+
+    </div>
+</body>
+</html>
